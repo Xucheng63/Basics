@@ -1,1 +1,110 @@
 /* Your CSS here. */
+h1{
+    color: orange;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    
+}
+div {
+    height: 600px;
+    width: 50%;
+    background: center/cover url("https://imgds360live.s3.amazonaws.com/storefront/3531129/2648807552_1621207335_3531129.jpg");
+    margin: auto;
+    border-color: greenyellow;
+    border-width: 3px;
+    border-style: dashed;
+    border-left-style: solid;
+    border-radius: 5%;
+    padding: 20px;
+}
+img{
+    width: 150px; 
+    height: 150px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-color: orange;
+    border-width: 1px;
+    border-style: solid;
+    transition: 1s;
+}
+div img:hover {
+    border-radius: 50%;
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: cursive, sans-serif;
+}
+h3{
+    text-align: center;
+    color: blue;
+    font-weight: normal;
+    margin: auto;
+    margin-bottom: 5px;
+}
+h2:hover{
+    text-decoration:yellow underline wavy;
+}
+h3:hover{
+    text-decoration:yellow underline wavy;
+}
+h3::selection{
+    background-color: white;
+}
+h2::selection{
+    background-color: white;
+}
+p{
+    color: rgb(2, 184, 2);
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 2;
+    margin: auto;
+}
+p::selection{
+    color:aqua;
+}
+span:first-of-type {
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+}
+a {
+    display: inline-block; 
+    margin: 0 10px; 
+    color: white;
+    font-weight: bold; 
+}
+a:hover{
+    border-style: solid;
+    border-radius: 10%;
+    border-color: yellow;
+    border-width: 1px;
+    padding: 1%;
+}
+p:hover{
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1px;
+    padding: 1%;
+}
+section{
+    font-size: 25px;
+    color:rgb(172, 0, 0);
+    font-weight: 700;
+    text-align: left;
+}
+li{
+    font-size: 20px;
+    color:rgb(172, 0, 0);
+    font-weight: 700;
+    text-align: left;
+}
+li:hover{
+    text-decoration:yellow underline wavy;
+}
